@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreation Hair Studio</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body id="search-screen">
+
+    <!-- start of search screen holder -->
+    <section id="search-holder" class="bg-dark py-3">
+        <!-- search screen container -->
+        <div class="container text-center">
+            <!-- back button holder-->
+            <div class="back-button-holder text-left">
+                <!-- start of back button -->
+                <button class="btn">
+                    <!-- back icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12H5" stroke="#565656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 19L5 12L12 5" stroke="#565656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <!-- end of back icon -->
+                </button>
+                <!-- end of back button -->
+            </div>
+            <!-- end of back button holder -->
+            <!-- start of search bar block -->
+            <div class="search-block mt-3 position-relative">
+                <!-- search bar -->
+                <input type="search" class="search-bar" id="search" placeholder="What are you looking for?" list="services">
+                <datalist id="services"></datalist>
+                <!-- end of search bar -->
+                <!-- search icon -->
+                <div class="search-icon position-absolute">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#373737" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.0004 20.9999L16.6504 16.6499" stroke="#373737" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <!-- end of search icon -->
+            </div>
+            <!-- end of search bar block -->
+
+            <!-- search results block -->
+            <div class="search-results">
+                <template>
+                
+               </template>
+            </div>
+
+        </div>
+        <!-- end of search screen container -->
+    </section>
+    <!-- end of search screen holder -->
+
+    <!-- bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- main script -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
