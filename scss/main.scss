@@ -50,9 +50,26 @@ body {
                 filter: brightness(1);
             }
         }
-        .notification-icon {
+        .profile {
             top: 20px;
             right: 20px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: #343434;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg {
+                width: 18px;
+                height: 18px;
+                user-select: none;
+                pointer-events: none;
+            }
+        }
+        .notification-icon {
+            top: 20px;
+            left: 20px;
         }
         .search-holder {
             padding: 0 1.5rem;
@@ -306,6 +323,18 @@ body {
                     }
                 }
             }
+        }
+    }
+}
+
+.profilepopup {
+    .modal-content {
+        background-color: #e5d525;
+        .modal-header {
+            border-bottom: none;
+        }
+        .list-group-item {
+            background: transparent;
         }
     }
 }

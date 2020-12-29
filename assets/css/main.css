@@ -57,9 +57,37 @@ body {
           filter: brightness(1);
 }
 
-#home-screen #home-holder .notification-icon {
+#home-screen #home-holder .profile {
   top: 20px;
   right: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #343434;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home-screen #home-holder .profile svg {
+  width: 18px;
+  height: 18px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+#home-screen #home-holder .notification-icon {
+  top: 20px;
+  left: 20px;
 }
 
 #home-screen #home-holder .search-holder {
@@ -418,4 +446,16 @@ body {
 
 #landing-screen #landing-holder .container .landing .overlay-text .btn-secondary {
   background-color: #c4c4c4;
+}
+
+.profilepopup .modal-content {
+  background-color: #e5d525;
+}
+
+.profilepopup .modal-content .modal-header {
+  border-bottom: none;
+}
+
+.profilepopup .modal-content .list-group-item {
+  background: transparent;
 }
