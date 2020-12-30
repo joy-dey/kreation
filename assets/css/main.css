@@ -459,3 +459,12 @@ body {
 .profilepopup .modal-content .list-group-item {
   background: transparent;
 }
+
+#goback {
+  z-index: 999999;
+  position: fixed;
+}
+
+#goback svg {
+  pointer-events: none;
+}
