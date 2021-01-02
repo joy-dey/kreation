@@ -18,7 +18,7 @@ body {
 
 #splash-screen #splash-holder {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+   
 }
 
 #home-screen {
@@ -199,7 +199,7 @@ body {
 
 #confirmation-screen #confirmation-holder {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+   
   padding: 3rem;
 }
 
@@ -213,7 +213,7 @@ body {
 
 #search-screen #search-holder {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+   
 }
 
 #search-screen #search-holder .search-block .search-bar {
@@ -297,7 +297,7 @@ body {
 
 #details-screen #details-holder {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+   
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -358,7 +358,7 @@ body {
 
 #notification-screen #notification-holder {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+   
 }
 
 #notification-screen #notification-holder hr {
@@ -385,7 +385,7 @@ body {
 
 #landing-screen #landing-holder {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+   
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

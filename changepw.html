@@ -13,7 +13,7 @@
 <body class=" bg-dark" style="height:100%">
  <div class="back-image " id="backimg">;
 
-    <div class="back-button-holder py-3">
+    <div class="back-button-holder position-absolute py-3">
         <!-- back button -->
         <button class="btn" id="goback">
         <!-- back icon -->
@@ -32,16 +32,16 @@
      <div class="login-block container bg-light p-4 my-4 " id="loginblock" >
         <h2 class="d-flex justify-content-center mt-4 mb-3">Change Password ?</h2>
         <div class="form-floating mb-3 ">
-            <input type="email" class="form-control brd" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Enter your phone number </label>
+            <input type="number" class="form-control brd" id="num" placeholder="+91-123435">
+            <label for="num">Enter your phone number </label>
           </div>
         <div class="form-floating mb-3 ">
-            <input type="email" class="form-control brd" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Enter your password </label>
+            <input type="password" class="form-control brd" id="pw" placeholder="Enter password">
+            <label for="pw">Enter your password </label>
           </div>
         <div class="form-floating mb-3 ">
-            <input type="email" class="form-control brd" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Confirm password </label>
+            <input type="password" class="form-control brd" id="cpw" placeholder="Confirm password">
+            <label for="cpw">Confirm password </label>
           </div>
           <div class="button-holder d-grid mt-2 ">
               <button class="btn btn-lg btn-warning mt-3 fw-bold btn-block" style="border-radius: 12px;">Submit</button>
@@ -55,7 +55,7 @@
     <!-- bootstrap -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <!-- login script -->
-    <script src="assets/js/home.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
