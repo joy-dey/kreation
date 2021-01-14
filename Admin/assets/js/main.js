@@ -38,26 +38,6 @@ setTimeout(() => {
 }, 3000);
 
 
-if(backButton){
-    backButton.addEventListener('click', () => {
-        history.back(-1);
-    })
-}
-
-
-
-let loadingScreen = document.querySelector('#loading'),
-apptButton = document.querySelector('#bookAppt');
-if(apptButton){
-apptButton.addEventListener('click',() => {
-    if(loadingScreen.classList.contains('d-none'))  {
-        loadingScreen.classList.remove('d-none');
-     
-        setTimeout(()=>{
-            loadingScreen.classList.add('d-none');
-            location.href='confirmation.html'
-        },3000)
-    }
-
+backButton.addEventListener('click', () => {
+    history.back(-1);
 })
-}

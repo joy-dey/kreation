@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <!-- stylesheet -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/auth.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css">
 </head>
 
@@ -49,7 +50,7 @@
         </div>
         <div class="container mt-5 pb-4">
             <div class="item-block d-grid px-2">
-                <div class="service-item" style="background-image: url('assets/img/facial2.jpg');" onclick="location.href='details.html'">
+                <div class="service-item" style="background-image: url('assets/img/facial2.jpg');" data-toggle="modal" data-target="#ratingModal">
                     <div class="overlay p-4">
                         <p class="h5">Facial</p>
                         <p class="mb-0 small">₹3600 - onwards</p>
@@ -92,16 +93,43 @@
                 </div>
                 <div class="modal-body">
                     <ul class="list-group bg-transparent">
-                        <li class="list-group-item"> <a href="editprofile.html" class="text-decoration-none text-dark">  <i class="mdi mdi-pencil"></i> Edit profile</a> </li>
-                        <li class="list-group-item"><a href="changepw.html" class="text-decoration-none text-dark">  <i class="mdi mdi-lock-plus"></i> Change Password</a></li>
-                        <li class="list-group-item"><a href="history.html" class="text-decoration-none text-dark">  <i class="mdi mdi-delete-empty"></i>  History</a></li>
-                        <li class="list-group-item"><a href="login.html" class="text-decoration-none text-dark">  <i class="mdi mdi-logout"></i> Logout</a></li>
+                        <li class="list-group-item"> <a href="editprofile.html" class="text-decoration-none ">  <i class="mdi mdi-pencil"></i> Edit profile</a> </li>
+                        <li class="list-group-item"><a href="changepw.html" class="text-decoration-none ">  <i class="mdi mdi-lock-plus"></i> Change Password</a></li>
+                        <li class="list-group-item"><a href="history.html" class="text-decoration-none ">  <i class="mdi mdi-delete-empty"></i>  History</a></li>
+                        <li class="list-group-item"><a href="login.html" class="text-decoration-none ">  <i class="mdi mdi-logout"></i> Logout</a></li>
                       
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+
+
+ 
+        <div class="modal" tabindex="-1" id="ratingModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">How satisfied with our Services?</h5>
+                  <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <ul class="list-unstyled rating-inputs">
+                        <li class="ratings-input-holder"><input type="radio" name="rat" id="i"><label for="i"><img src="assets/img/001-angry.png" alt="" class="img-fluid"></label></li>
+                        <li class="ratings-input-holder"><input type="radio" name="rat" id="ii"><label for="ii"><img src="assets/img/002-shocked.png" alt="" class="img-fluid"></label></li>
+                        <li class="ratings-input-holder"><input type="radio" name="rat" id="iii"><label for="iii"><img src="assets/img/003-shocked-1.png" alt="" class="img-fluid"></label></li>
+                        <li class="ratings-input-holder"><input type="radio" name="rat" id="iv"><label for="iv"><img src="assets/img/005-happy.png" alt="" class="img-fluid"></label></li>
+                        <li class="ratings-input-holder"><input type="radio" name="rat" id="v"><label for="v"><img src="assets/img/004-in-love.png" alt="" class="img-fluid"></label></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link text-decoration-none fw-bold text-muted" data-bs-dismiss="modal">Not now</button>
+                    <button type="button" class="btn btn-link text-decoration-none fw-bold">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
 
     <!-- bootstrap -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

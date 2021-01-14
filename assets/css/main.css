@@ -449,7 +449,11 @@ body {
 }
 
 .profilepopup .modal-content {
-  background-color: #e5d525;
+  background-color: #333;
+}
+
+.profilepopup .list-group a{
+  color: inherit;
 }
 
 .profilepopup .modal-content .modal-header {

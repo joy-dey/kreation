@@ -28,7 +28,7 @@
                     <h1>Manicure</h1>
                     <p>₹3600 - onwards</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in mollis nunc sed id semper risus.</p>
-                    <button class="btn btn-lg btn-warning btn-block mt-3">Book an Appointment Now</button>
+                    <button class="btn btn-lg btn-warning btn-block mt-3" id="bookAppt">Book an Appointment Now</button>
                 </div>
                 <!-- end of overlay text -->
             </div>
@@ -37,10 +37,10 @@
     </section>
     <!-- end of details screen holder -->
 
-    <section id="loading" class="loading">
-    <div class="loading-holder w-100 ">
+    <section id="loading" class="loading d-none" >
+    <div class="loading-holder w-100 " id="loading_bar">
         <div class="block">
-            <div class="card px-4 w-100 pb-5">
+            <div class="card px-4 w-100 pb-5 "  >
                 <div class="card-body py-4">
                     
                   <h3 class="card-title ">Processing Your Appointment</h3>
@@ -58,6 +58,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <!-- main script -->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

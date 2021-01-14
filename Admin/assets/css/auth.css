@@ -446,10 +446,8 @@
   }
   
   .profilepopup .modal-content {
-    background-color: #333;
-    color: #e5d525;
-}
-  
+    background-color: #e5d525;
+  }
   
   .profilepopup .modal-content .modal-header {
     border-bottom: none;
@@ -555,23 +553,4 @@
        transform: translateX(-20vw);
      }
     }
-    .rating-inputs{
-      display: inline-flex;
-      justify-content: space-between;
-      width: 85%;
-      margin: 0 auto;
-
-    }
-    .ratings-input-holder input{
-      display: none;
-    }
-   .ratings-input-holder label img{
-     width: 50px;
-     filter: grayscale(1);
-     transition: all .3s ease;
-   } 
-   .ratings-input-holder input:active + label img, .ratings-input-holder input:hover + label img
-   {
-     filter: grayscale(0);
-     transform: scale(1.3);
-   }
+  
